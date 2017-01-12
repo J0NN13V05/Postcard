@@ -56,6 +56,13 @@
                                 <rect key="frame" x="259" y="166" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5m-Dg-may">
+                                <rect key="frame" x="16" y="180" width="235" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -64,6 +71,7 @@
                         <outlet property="enterNameTextField" destination="iiW-k9-VIA" id="tKa-p9-L4I"/>
                         <outlet property="mailButton" destination="bI3-qh-Bb2" id="CVx-j6-gjt"/>
                         <outlet property="messageLabel" destination="PVv-Lh-8ZM" id="cgU-am-ERx"/>
+                        <outlet property="nameLabel" destination="x5m-Dg-may" id="1ev-85-l2H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
